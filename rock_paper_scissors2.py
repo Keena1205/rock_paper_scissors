@@ -22,9 +22,9 @@ def get_user_choice():
             user_input = choices[user_input]  # Converting user choice to the full word.
             break  # Exit the loop when valid input is received
         else:
-            print("You have entered an invalid option.")
-           # user_input = input("You have entered an invalid option. Let's try again!\nPlease input  R, P or S:")  # If input is invalid, prompts user to enter a valid input. The loop will continue until a correct input is given.
+            print("You have entered an invalid option.") # If input is invalid, prompts user to enter a valid input. The loop will continue until a correct input is given.
     return user_input
+
 
 #Function to determin the winner
 def determin_winner(user_choice, computer_choice):
